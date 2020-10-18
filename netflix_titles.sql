@@ -24,3 +24,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 SELECT * FROM netflix_titles
+
+SELECT * FROM netflix_titles WHERE duration = '90 min';
+SELECT * FROM netflix_titles WHERE country = 'Thailand';
+SELECT * FROM netflix_titles WHERE release_year > 2015;
